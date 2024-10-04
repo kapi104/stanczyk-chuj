@@ -1,0 +1,33 @@
+body,
+button,
+input,
+select {
+  font-size: larger;
+}
+
+body {
+  background-image: url("stanczyk.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#abc {
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.container > * {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
